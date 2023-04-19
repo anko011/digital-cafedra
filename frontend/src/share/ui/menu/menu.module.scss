@@ -1,0 +1,34 @@
+.root {
+  background-color: var(--mauve2);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing1);
+}
+
+.item {
+  position: relative;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing2);
+  padding: var(--spacing2);
+  border-radius: var(--radius1);
+  transition: background-color 300ms;
+
+  &:focus-visible, &:hover {
+    background-color: var(--mauve5);
+  }
+
+  &[data-active] {
+    background-color: var(--mauve8);
+  }
+
+  svg {
+    color: var(--mauve12);
+  }
+}

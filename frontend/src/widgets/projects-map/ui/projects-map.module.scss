@@ -1,0 +1,16 @@
+.wrapper {
+  overflow: hidden;
+  border-radius: var(--radius2);
+  box-shadow: var(--shadow1), var(--shadow-bottom-1);
+
+  position: absolute;
+  top: var(--spacing4);
+  left: var(--spacing4);
+  right: var(--spacing4);
+  bottom: var(--spacing4);
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}

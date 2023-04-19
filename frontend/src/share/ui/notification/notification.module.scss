@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  gap: var(--spacing2);
+  align-items: center;
+  background-color: var(--mauve12);
+  padding: var(--spacing2) var(--spacing4);
+  border-radius: var(--spacing1);
+}
+
+.text {
+  color: var(--mauve1);
+  font-size: var(--font-size2);
+}
+
+.successIcon {
+  color: var(--mint8);
+}
+
+.errorIcon {
+  color: var(--red8);
+}
+

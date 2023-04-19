@@ -1,0 +1,49 @@
+.table {
+  width: 100%;
+  background-color: var(--mauve2);
+  padding: var(--spacing3);
+  box-shadow: var(--shadow1), var(--shadow-bottom-1);
+  border-radius: var(--radius2);
+  border-collapse: collapse;
+}
+
+.tableInvalidPosition {
+  position: relative;
+  top: -100000px;
+}
+
+.row {
+  border-bottom: 1px solid var(--mauve8);
+}
+
+.cell {
+  padding: var(--spacing3);
+  text-align: start;
+}
+
+.accordionRowHeader {
+  cursor: pointer;
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: var(--mauve6);
+  }
+}
+
+.accordionContent {
+  overflow: hidden;
+  padding: var(--spacing3);
+  border-bottom: 1px solid var(--mauve8);
+  background-color: var(--mauve4);
+}
+
+.accordionContentHide {
+  height: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.accordionContentAnimation {
+  transition-property: padding;
+  transition-duration: 300ms;
+}

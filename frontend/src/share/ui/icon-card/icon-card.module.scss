@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  gap: var(--spacing2);
+  background-color: var(--icon-card-background-color, var(--mauve10));
+  padding: var(--spacing4);
+  border-radius: var(--radius2);
+  overflow: hidden;
+}
+
+.icon {
+  margin: calc(0px - var(--spacing4));
+  margin-right: 0;
+  box-shadow: var(--shadow1);
+  min-width: 5%;
+  background-color: var(--icon-card-icon-color, var(--mauve12));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    color: var(--icon-card-icon-color, var(--mauve1))
+  }
+}
