@@ -1,0 +1,3 @@
+from .ZastroyshikSerializer import ZastroyshikSerializer
+from .TipVladelzaSerializer import TipVladelzaSerializer
+from .VladelezZdaniaSerializer import VladelezZdaniaSerializer

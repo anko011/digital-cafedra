@@ -1,0 +1,10 @@
+from .UchastnikRabochaiaGruppaInline import UchastnikRabochaiaGruppaInline
+from .ResheniePoProektuInline import ResheniePoProektuInline
+from .DopPoleProektaInline import DopPoleProektaInline
+from .DopPoleNaProekteInline import DopPoleNaProekteInline
+from .DopPoleProektaAdmin import DopPoleProektaAdmin
+from .StatusIspolneniaAdmin import StatusIspolneniaAdmin
+from .ProektAdmin import ProektAdmin
+
+from .TipResheniaPoProektuAdmin import TipResheniaPoProektuAdmin
+from .UchastnikRabochaiaGruppaAdmin import UchastnikRabochaiaGruppaAdmin
